@@ -13,6 +13,8 @@ while True:
     distance = sensor.distance_cm()
     print('Distance:', distance, 'cm')
     
+Change 1
+
     if distance < 20:
         led.value(1)
         
